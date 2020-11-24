@@ -22,7 +22,7 @@
 	<section class="">
 		<?php
 			include 'header.php';
-		?>
+		?> 
 
 			<section class="caption">
 				<h2 class="caption" style="text-align: center">Find You Dream Cars For Hire</h2>
@@ -33,7 +33,7 @@
 
 	<section class="listings">
 		<div class="wrapper">
-		<h2 style="text-decoration:underline">Your Booking Status</h2>
+		<h2 style="text-decoration:underline">Temukan Mobil Untuk Disewa</h2>
 			<ul class="properties_list">
 			<?php
 						include 'includes/config.php';
@@ -50,53 +50,7 @@
 	</section>	<!--  end listing section  -->
 
 	<footer>
-		<div class="wrapper footer">
-			<ul>
-				<li class="links">
-					<ul>
-						<li>OUR COMPANY</li>
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Terms</a></li>
-						<li><a href="#">Policy</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</li>
-
-				<li class="links">
-					<ul>
-						<li>OTHERS</li>
-						<li><a href="#">...</a></li>
-						<li><a href="#">...</a></li>
-						<li><a href="#">...</a></li>
-						<li><a href="#">...</a></li>
-					</ul>
-				</li>
-
-				<li class="links">
-					<ul>
-						<li>OUR CAR TYPES</li>
-						<li><a href="#">Mercedes</a></li>
-						<li><a href="#">Range Rover</a></li>
-						<li><a href="#">Landcruisers</a></li>
-						<li><a href="#">Others.</a></li>
-					</ul>
-				</li>
-
-				<li class="about">
-				<p>Our company rents cars and other vehicles to clients at lower costs.</p>
-				<ul>
-						<li><a href="http://facebook.com/codeprojectsdotorg/" class="facebook" target="_blank"></a></li>
-						<li><a href="http://twitter.com/" class="twitter" target="_blank"></a></li>
-						<li><a href="http://plus.google.com/" class="google" target="_blank"></a></li>
-						<li><a href="#" class="skype"></a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-
-		<div class="copyrights wrapper">
-			Copyright &copy; <?php echo date("Y")?> Simple Car Rental System
-		</div>
+		<h1>Setya Car Rental<h1>
 	</footer><!--  end footer  -->
 	
 </body>

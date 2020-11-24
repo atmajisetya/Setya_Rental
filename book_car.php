@@ -35,7 +35,7 @@
 			?>
 				<li>
 					<a href="book_car.php?id=<?php echo $rws['car_id'] ?>">
-						<img class="thumb" src="cars/<?php echo $rws['image'];?>" width="300" height="200">
+						<img class="thumb" src="<?php echo $rws['image'];?>" width="300" height="200">
 					</a>
 					<span class="price"><?php echo 'Rp.'.$rws['hire_cost'];?></span>
 					<div class="property_details">
@@ -64,7 +64,7 @@
 							<td><input type="email" name="email" required></td>
 						</tr>
 						<tr>
-							<td>ID Number:</td>
+							<td>Password:</td>
 							<td><input type="text" name="id_no" required></td>
 						</tr>
 						<tr>

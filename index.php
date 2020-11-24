@@ -38,7 +38,7 @@
 			?>
 				<li>
 					<a href="book_car.php?id=<?php echo $rws['car_id'] ?>">
-						<img class="thumb" src="cars/<?php echo $rws['image'];?>" width="300" height="200">
+						<img class="thumb" src="<?php echo $rws['image'];?>" width="300" height="200">
 					</a>
 					<span class="price"><?php echo 'Rp.'.$rws['hire_cost'];?></span>
 					<div class="property_details">
@@ -56,7 +56,7 @@
 	</section>	<!-- akhir dari section daftar mobil -->
 
 	<footer>
-		<h1>Setya Rental Car</h1>
+		<h1>Setya Car Rental</h1>
 	</footer><!--  end footer  -->
 	
 </body>

@@ -21,12 +21,13 @@
 		?>
 
 			<section class="caption">
-				<h2 class="caption" style="text-align: center">Find You Dream Cars For Hire</h2>
+				<h2 class="caption" style="text-align: center">Temukan Mobil Untuk Disewa</h2>
 				<h3 class="properties" style="text-align: center">Range Rovers - Mercedes Benz - Landcruisers</h3>
 			</section>
 	</section><!--  end hero section  -->
 
 
+	<!--
 	<section class="search">
 		<div class="wrapper">
 			<form action="#" method="post">
@@ -58,24 +59,26 @@
 					<input type="submit" id="submit_search" name="submit_search"/>
 				</form>
 			</div>
-		</div><!--  end advanced search section  -->
-	</section><!--  end search section  -->
-
+		</div>  end advanced search section
+	</section> end search section
+	-->
 
 	<section class="listings">
 		<div class="wrapper">
 			<ul class="properties_list">
-				<h3 style="text-decoration: underline">Make Payments Here</h3>
+				<h3 style="text-decoration: underline">Bayar dulu cuy</h3>
+				<!--
 				<h5>Paybill Number: 00000</h5>
 				<h6>Business Number: ID Number Registered with.</h6>
+				-->
 				<form method="post">
 					<table>
 						<tr>
-							<td>MPESA Transaction ID:</td>
+							<td>GesitBayar Transaction ID:</td>
 							<td><input type="text" name="mpesa" required></td>
 						</tr>
 						<tr>
-							<td>National ID Number:</td>
+							<td>Password:</td>
 							<td><input type="text" name="id_no" required></td>
 						</tr>
 						
@@ -114,53 +117,7 @@
 	</section>	<!--  end listing section  -->
 
 	<footer>
-		<div class="wrapper footer">
-			<ul>
-				<li class="links">
-					<ul>
-						<li>OUR COMPANY</li>
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Terms</a></li>
-						<li><a href="#">Policy</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</li>
-
-				<li class="links">
-					<ul>
-						<li>OTHERS</li>
-						<li><a href="#">...</a></li>
-						<li><a href="#">...</a></li>
-						<li><a href="#">...</a></li>
-						<li><a href="#">...</a></li>
-					</ul>
-				</li>
-
-				<li class="links">
-					<ul>
-						<li>OUR CAR TYPES</li>
-						<li><a href="#">Mercedes</a></li>
-						<li><a href="#">Range Rover</a></li>
-						<li><a href="#">Landcruisers</a></li>
-						<li><a href="#">Others.</a></li>
-					</ul>
-				</li>
-
-				<li class="about">
-				<p>Our company rents cars and other vehicles to clients at lower costs.</p>
-				<ul>
-						<li><a href="http://facebook.com/codeprojectsdotorg/" class="facebook" target="_blank"></a></li>
-						<li><a href="http://twitter.com/" class="twitter" target="_blank"></a></li>
-						<li><a href="http://plus.google.com/" class="google" target="_blank"></a></li>
-						<li><a href="#" class="skype"></a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-
-		<div class="copyrights wrapper">
-		Copyright &copy; <?php echo date("Y")?> Simple Car Rental System
-		</div>
+		<h1>Setya Car REntal </h1>
 	</footer><!--  end footer  -->
 	
 </body>
