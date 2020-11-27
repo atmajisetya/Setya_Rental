@@ -82,7 +82,11 @@
 							<td><input type="text" name="location" required></td>
 						</tr>
 						<tr>
-							<td colspan="2" style="text-align:right"><input type="submit" name="save" value="Submit Details"></td>
+							<td colspan="2" style="text-align:right">
+								<a href="wait.php?name=<?php echo $_POST['fname'] ?>">
+									<input type="submit" name="save" value="Submit Details">
+								</a>
+							</td>
 						</tr>
 					</table>
 				</form>
@@ -110,7 +114,7 @@
 							if($result == TRUE){
 								echo "<script type = \"text/javascript\">
 											alert(\"Successfully Registered. Proceed to pay\");
-											window.location = (\"pay.php\")
+											window.location = (\"wait.php?name=$fname\")
 											</script>";
 							} else{
 								echo "<script type = \"text/javascript\">

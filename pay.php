@@ -110,9 +110,7 @@
 						
 					  ?>
 			</ul>
-			<div class="more_listing">
-				<a href="#" class="more_listing_btn">View More Listings</a>
-			</div>
+			
 		</div>
 	</section>	<!--  end listing section  -->
 

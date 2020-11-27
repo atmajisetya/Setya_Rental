@@ -21,7 +21,7 @@
 		?>
 
 			<section class="caption">
-				<h2 class="caption" style="text-align: center">Find You Dream Cars For Hire</h2>
+				<h2 class="caption" style="text-align: center">Temukan Mobil Untuk Disewa</h2>
 				<h3 class="properties" style="text-align: center">Range Rovers - Mercedes Benz - Landcruisers</h3>
 			</section>
 	</section><!--  end hero section  -->
@@ -65,62 +65,19 @@
 	<section class="listings">
 		<div class="wrapper">
 			<ul class="properties_list">
-				<h2 style="text-align:center; color:#FF0000; font-family: 'Courier New', Courier, monospace">Thank you for sending a request to our Team. 
-				We will get back to you once we verify your payment.<br>
-				You can login to view the processing status of your request using your email and the National ID Number as password.</h2>
+				<?php
+					echo "Terima Kasih " . $_GET['name'] ." Telah Menyewa";
+				?>
+				<!--
+				<h2 style="text-align:center; color:#FF0000; font-family: 'Courier New', Courier, monospace">Terima kasih telah menyewa, mohon ditunggu sebentar.</h2>
+			    -->
 			</ul>
 			
 		</div>
 	</section>	<!--  end listing section  -->
 
 	<footer>
-		<div class="wrapper footer">
-			<ul>
-				<li class="links">
-					<ul>
-						<li>OUR COMPANY</li>
-						<li><a href="#">About Us</a></li>
-						<li><a href="#">Terms</a></li>
-						<li><a href="#">Policy</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</li>
-
-				<li class="links">
-					<ul>
-						<li>OTHERS</li>
-						<li><a href="#">...</a></li>
-						<li><a href="#">...</a></li>
-						<li><a href="#">...</a></li>
-						<li><a href="#">...</a></li>
-					</ul>
-				</li>
-
-				<li class="links">
-					<ul>
-						<li>OUR CAR TYPES</li>
-						<li><a href="#">Mercedes</a></li>
-						<li><a href="#">Range Rover</a></li>
-						<li><a href="#">Landcruisers</a></li>
-						<li><a href="#">Others.</a></li>
-					</ul>
-				</li>
-
-				<li class="about">
-				<p>Our company rents cars and other vehicles to clients at lower costs.</p>
-				<ul>
-						<li><a href="http://facebook.com/codeprojectsdotorg/" class="facebook" target="_blank"></a></li>
-						<li><a href="http://twitter.com/" class="twitter" target="_blank"></a></li>
-						<li><a href="http://plus.google.com/" class="google" target="_blank"></a></li>
-						<li><a href="#" class="skype"></a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-
-		<div class="copyrights wrapper">
-		Copyright &copy; <?php echo date("Y")?> Simple Car Rental System
-		</div>
+		<h1>Setya Car Rental </h1>
 	</footer><!--  end footer  -->
 	
 </body>
