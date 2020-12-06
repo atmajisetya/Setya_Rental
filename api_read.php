@@ -11,7 +11,7 @@
     
     //read data
     //$sql = "SELECT * FROM cars WHERE status = 'Available'";
-    $sql = "SELECT * FROM cars";
+    $sql = "SELECT * FROM cars WHERE status = 'Available'";
     $rs = $conn->query($sql);
     $json_data= array();
     

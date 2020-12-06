@@ -25,16 +25,19 @@
         
             
         $qry = "INSERT INTO client (fname,id_no,gender,email,phone,location,car_id,status)
-					VALUES('$fname','$id_no','$gender','$email','$phone','$location','$car_id','Approved')";
+					VALUES('$fname','$id_no','$gender','$email','$phone','$location','$car_id','Pending')";
 		//$qry = "INSERT INTO client (fname,id_no,gender,email,phone,location,car_id,status)
 				//VALUES('{$_POST['fname']}', '{$_POST['id_no']}',' {$_POST['gender']}','{$_POST['email']}','{$_POST['phone']}','{$_POST['location']}','{$_POST['car_id']}','Pending')";
 		$result = $conn->query($qry);
 		if($result == TRUE){
 			echo "Berhasil book";
-			echo "<script type = \"text/javascript\">
+            
+            header("Location: wait.php?name=$fname");
+            /*echo "<script type = \"text/javascript\">
 											alert(\"Successfully Registered. Proceed to pay\");
 											window.location = (\"wait.php?name=$fname\")
-											</script>";
+                                            </script>";
+            */
 		} else{
 			echo "Gagal";
         }

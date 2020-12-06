@@ -1,6 +1,6 @@
 <?php
    $url=$_SERVER['REQUEST_URI'];
-   header("Refresh: 5; URL=$url");
+   header("Refresh: 20; URL=$url");
 ?>
 
 <!DOCTYPE html>
